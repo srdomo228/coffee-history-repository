@@ -1,0 +1,17 @@
+/* This sets a background color for the entire page */
+body {
+  background-color: #a7ccee;
+  font-family: sans-serif;
+}
+
+/* This centers all h1 headers */
+h1 {
+  text-align: center;
+  color: #3f342c;
+}
+
+/* This adjusts the font size for all paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
