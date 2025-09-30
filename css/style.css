@@ -51,3 +51,16 @@ p {
     gap: 40px; /* Adds space between the sections */
     padding: 20px;
 }
+/* Media Query */
+@media (max-width: 768px) {
+    /* Override the desktop flex-container to stack content vertically on small screens */
+    .flex-container {
+        flex-direction: column;
+        gap: 20px; /* Reduces gap for vertical stacking */
+    }
+    
+    /* Example of another mobile style (optional, but good for accessibility) */
+    h1 {
+        font-size: 1.5em; /* Shrinks the main heading size */
+    }
+}
