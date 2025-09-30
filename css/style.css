@@ -7,11 +7,47 @@ body {
 /* This centers all h1 headers */
 h1 {
   text-align: center;
-  color: #3f342c;
+  color: #daaa88;
 }
 
 /* This adjusts the font size for all paragraphs */
 p {
   font-size: 16px;
   line-height: 1.6;
+}
+
+/* Styling for elements with the class 'section-title' */
+.section-title {
+  color: #1d374d; 
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Styling for elements with the class 'content-paragraph' */
+.content-paragraph {
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+/* Styling for the unique 'main-header' ID */
+#main-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the unique 'page-footer' ID */
+#page-footer {
+  background-color: #ccc;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #555;
+}
+/* Flexbox Layout for the main content on page2 */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Spreads the sections out */
+    gap: 40px; /* Adds space between the sections */
+    padding: 20px;
 }
