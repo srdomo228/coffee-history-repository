@@ -44,13 +44,18 @@ p {
   padding: 10px;
   border-top: 2px solid #555;
 }
+<<<<<<< HEAD
 /* Flexbox Layout for the main content on page2 */
 /*
+=======
+/* Flexbox Layout for the main content on page2 (COMMENTED OUT)_
+>>>>>>> a99779bdd63dd27079f7277805015d6fa2590f4e
 .flex-container {
     display: flex;
     justify-content: space-around; 
     gap: 40px; 
     padding: 20px;
+<<<<<<< HEAD
   }
 
 
@@ -68,3 +73,20 @@ p {
     }
   }
 */
+=======
+*/
+
+/* Media Query (COMMENTED OUT)*/
+@media (max-width: 768px) {
+    /* Override the desktop flex-container to stack content vertically on small screens 
+    .flex-container {
+        flex-direction: column;
+        gap: 20px; 
+    }
+    */
+    /* Example of another mobile style (optional, but good for accessibility) */
+    h1 {
+        font-size: 1.5em; /* Shrinks the main heading size */
+    }*/
+}
+>>>>>>> a99779bdd63dd27079f7277805015d6fa2590f4e
